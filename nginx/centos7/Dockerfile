@@ -43,7 +43,7 @@ ADD root /
 
 # ADD https://git.centos.org/sources/httpd/c7/acf5cccf4afaecf3afeb18c50ae59fd5c6504910 /usr/share/nginx/html/
 # RUN sed -i -e 's/Apache/nginx/g' -e '/apache_pb.gif/d' /usr/share/nginx/html/index.html
-RUN echo 'B' > /usr/share/nginx/html/index.html
+RUN echo 'A' > /usr/share/nginx/html/index.html
 
 EXPOSE 80
 
