@@ -48,6 +48,6 @@ RUN echo "nginx on CentOS7" > /usr/share/nginx/html/index.html
 EXPOSE 80
 
 USER nginx
-echo A > /usr/share/nginx/html/index.html
+echo 'A' > /usr/share/nginx/html/index.html
 ENTRYPOINT ["container-entrypoint"]
 CMD [ "nginx18" ]
